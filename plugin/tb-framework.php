@@ -20,6 +20,17 @@ if (!function_exists('tb_activation_hook')) {
         // error messages
         $errors = array();
 
+        // a minimum WordPress version of is required
+        global $wp_version;
+        if (!isset($wp_version)) {
+            require_once ABSPATH . WPINC . '/version.php';
+        }
+        if (version_compare('4.7', $wp_version, '>')) {
+            $errors[] = '<h3>WordPress version</h3>' .
+                '<p>This plugin requires WordPress version <strong>4.7</strong> or higher, but your current version is' .
+                ' <strong>' . esc_html($wp_version) . '</strong>.</p>';
+        }
+
         // a minimum PHP version of 5.3 is required
         if (version_compare('5.3', phpversion(), '>')) {
             $errors[] = '<h3>PHP version</h3>' .
@@ -47,11 +58,14 @@ if (!function_exists('tb_activation_hook')) {
         // tests passed?
         if (!empty($errors)) {
             wp_die(
+                '<div class="notice notice-error">' .
                 '<h1>Oh no&hellip;</h1>' .
-                '<p><div class="error"><em>It looks like your server does not meet the minimum requirements' .
-                ' needed to run this plugin. Here is a list of all compatibility checks that have failed and' .
-                ' suggestions on how to fix them:</em></div></p>' . implode('', $errors) .
-                '<p><a href="javascript:history.back()">Go back</a></p>'
+                '<p><em>It looks like your server does not meet the minimum requirements needed to run this' .
+                ' plugin. Here is a list of all compatibility checks that have failed and suggestions on' .
+                ' how to fix them:</em></p>' .
+                implode('', $errors) .
+                '<p><a href="javascript:history.back()">Back</a></p>' .
+                '</div>'
             );
         }
     }

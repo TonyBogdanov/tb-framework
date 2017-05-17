@@ -6,6 +6,9 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
+// prevent direct access
+defined('ABSPATH') || die;
+
 // converts the specified value of file size notation to it's integer representation
 if (!function_exists('tb_ini_size_in_bytes')) {
     function tb_ini_size_in_bytes($val)

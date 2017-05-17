@@ -7,7 +7,10 @@
  */
 
 // PHP 5.3+ is assumed from this point on
-// define a global constant which can be used to determine if the plugin is installed and activated
+// prevent direct access
+defined('ABSPATH') || die;
+
+// framework version
 defined('TB_FRAMEWORK') || define('TB_FRAMEWORK', '1.0.0');
 
 //// init the auto loader
