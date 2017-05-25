@@ -6,12 +6,18 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-// PHP 5.4+ is assumed from this point on
-// prevent direct access
-defined('ABSPATH') || die;
+namespace TB\Utils;
 
-// framework version
-defined('TB_FRAMEWORK') || define('TB_FRAMEWORK', '1.0.0');
-
-// init the auto loader
-require_once __DIR__ . '/vendor/autoload.php';
+/**
+ * Adds plugin utilities awareness.
+ *
+ * Interface PluginAwareInterface
+ * @package TB\Utils
+ */
+interface PluginAwareInterface
+{
+    /**
+     * @return Plugin
+     */
+    public function getPluginUtils();
+}

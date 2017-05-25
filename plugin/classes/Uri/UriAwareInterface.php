@@ -6,12 +6,18 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-// PHP 5.4+ is assumed from this point on
-// prevent direct access
-defined('ABSPATH') || die;
+namespace TB\Uri;
 
-// framework version
-defined('TB_FRAMEWORK') || define('TB_FRAMEWORK', '1.0.0');
-
-// init the auto loader
-require_once __DIR__ . '/vendor/autoload.php';
+/**
+ * Adds uri awareness.
+ *
+ * Interface UriAwareInterface
+ * @package TB\Uri
+ */
+interface UriAwareInterface
+{
+    /**
+     * @return Uri
+     */
+    public function getUri();
+}
