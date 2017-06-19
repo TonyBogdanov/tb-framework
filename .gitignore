@@ -1,6 +1,5 @@
-composer.json
-composer.lock
-.migrate/
 .idea/
+composer.lock
 plugin/vendor/
 plugin/languages/
+bower_components/

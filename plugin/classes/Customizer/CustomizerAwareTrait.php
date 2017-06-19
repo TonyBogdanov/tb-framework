@@ -6,18 +6,21 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-namespace TB\Navigation;
+namespace TB\Customizer;
 
 /**
- * Adds navigation awareness.
+ * Adds customizer awareness.
  *
- * Interface NavigationAwareInterface
- * @package TB\Navigation
+ * Trait CustomizerAwareTrait
+ * @package TB\Customizer
  */
-interface NavigationAwareInterface
+trait CustomizerAwareTrait
 {
     /**
-     * @return Navigation
+     * @return Customizer
      */
-    public function getNavigation();
+    public function getCustomizer()
+    {
+        return $this->get('tb.customizer.customizer');
+    }
 }

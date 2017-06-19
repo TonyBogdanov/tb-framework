@@ -17,7 +17,7 @@ namespace TB\Navigation;
 trait NavigationAwareTrait
 {
     /**
-     * @return Uri
+     * @return Navigation
      */
     public function getNavigation()
     {

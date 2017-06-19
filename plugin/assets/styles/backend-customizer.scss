@@ -1,0 +1,15 @@
+/*!
+ *  @package    TB Framework
+ *  @author     Tony Bogdanov <support@tonybogdanov.com>
+ *  @license    MIT http://www.opensource.org/licenses/mit-license.php
+ *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
+ */
+[id^="tb_tab_"] {
+  p.description {
+    font-weight: 400;
+  }
+
+  &:not(.tb-tab-active) {
+    display: none !important;
+  }
+}

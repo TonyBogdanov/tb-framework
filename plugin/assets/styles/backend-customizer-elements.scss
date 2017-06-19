@@ -1,0 +1,110 @@
+/*!
+ *  @package    TB Framework
+ *  @author     Tony Bogdanov <support@tonybogdanov.com>
+ *  @license    MIT http://www.opensource.org/licenses/mit-license.php
+ *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
+ */
+@import "../../../bower_components/bottle/scss/mixins";
+
+@mixin backend-customizer-button-danger() {
+  $color: #d54e21;
+  $dark: darken(#d54e21, 8%);
+  $light: lighten(#d54e21, 3%);
+
+  background: $color;
+  border-color: $color $dark $dark;
+  box-shadow: 0 1px 0 $dark;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px $dark, 1px 0 1px $dark, 0 1px 1px $dark, -1px 0 1px $dark;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: $light;
+    border-color: $dark;
+    color: #fff;
+  }
+
+  &:active {
+    box-shadow: inset 0 2px 0 $dark;
+    vertical-align: top;
+  }
+}
+
+/* TB\Form\Element\MultiMedia */
+.tb-media {
+  .tb-media-template {
+    display: none;
+  }
+
+  .tb-media-collection {
+    @include display(flex);
+    @include flex-wrap(wrap);
+
+    .tb-media-item {
+      width: 100px;
+      height: 135px;
+      margin: 0 8px 8px 0;
+
+      @include display(flex);
+      @include flex-direction(column);
+      @include justify-content(space-between);
+
+      .tb-media-item-preview {
+        display: block;
+        position: relative;
+        width: 92px;
+        height: 92px;
+        border: #ddd 4px solid;
+        cursor: pointer;
+
+        &[data-type="generic"] {
+          background: transparent center center/auto 50% no-repeat;
+        }
+
+        &[data-type="image"] {
+          background: transparent center center/cover no-repeat;
+        }
+      }
+
+      .tb-media-item-remove {
+        width: 100%;
+
+        @include backend-customizer-button-danger();
+      }
+
+      &[data-empty] {
+        .tb-media-item-preview {
+          &[data-type="generic"] {
+            background: transparent;
+
+            &::before,
+            &::after {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              width: 30px;
+              height: 6px;
+              background: #ddd;
+            }
+
+            &::before {
+              @include transform(translate(-50%, -50%));
+            }
+
+            &::after {
+              @include transform(translate(-50%, -50%) rotate(90deg));
+            }
+          }
+        }
+
+        .tb-media-item-remove {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "tonybogdanov/tb-framework",
+    "description": "A versatile WordPress framework for theme and plugin development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tony Bogdanov",
+            "email": "support@tonybogdanov.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "plugin/vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "TB\\": "plugin/classes"
+        }
+    },
+    "require": {
+        "wa72/htmlpagedom": "^1.3"
+    }
+}

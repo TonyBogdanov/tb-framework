@@ -1,0 +1,20 @@
+{
+  "name": "tb-framework",
+  "homepage": "https://github.com/TonyBogdanov/tb-framework",
+  "authors": [
+    "Tony Bogdanov <support@tonybogdanov.com>"
+  ],
+  "description": "A versatile WordPress framework for theme and plugin development",
+  "main": "plugin/tb-framework.php",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bottle": "*"
+  }
+}

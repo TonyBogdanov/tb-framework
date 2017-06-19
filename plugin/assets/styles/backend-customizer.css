@@ -1,0 +1,1 @@
+[id^="tb_tab_"] p.description{font-weight:400}[id^="tb_tab_"]:not(.tb-tab-active){display:none !important}
