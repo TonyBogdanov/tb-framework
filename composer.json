@@ -3,6 +3,7 @@
     "description": "A versatile WordPress framework for theme and plugin development",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Tony Bogdanov",
@@ -10,14 +11,19 @@
         }
     ],
     "config": {
-        "vendor-dir": "plugin/vendor"
+        "vendor-dir": "tb-framework/vendor"
     },
     "autoload": {
         "psr-4": {
-            "TB\\": "plugin/classes"
+            "TB\\": "tb-framework/classes"
         }
     },
     "require": {
-        "wa72/htmlpagedom": "^1.3"
+        "wa72/htmlpagedom": "dev-master",
+        "TonyBogdanov/tb-form": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "3.4.x-dev",
+        "symfony/debug": "3.4.x-dev"
     }
 }

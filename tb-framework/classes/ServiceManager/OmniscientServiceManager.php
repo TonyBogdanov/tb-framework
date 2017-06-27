@@ -12,6 +12,8 @@ use TB\Asset\AssetAwareInterface;
 use TB\Asset\AssetAwareTrait;
 use TB\Asset\BackendAwareInterface;
 use TB\Asset\BackendAwareTrait;
+use TB\Asset\EditorAwareInterface;
+use TB\Asset\EditorAwareTrait;
 use TB\Asset\FrontendAwareInterface;
 use TB\Asset\FrontendAwareTrait;
 use TB\Config\ConfigAwareInterface;
@@ -63,6 +65,7 @@ class OmniscientServiceManager extends ServiceManager implements
     AssetAwareInterface,
     FrontendAwareInterface,
     BackendAwareInterface,
+    EditorAwareInterface,
     CustomizerAwareInterface
 {
     use ConfigAwareTrait;
@@ -75,5 +78,6 @@ class OmniscientServiceManager extends ServiceManager implements
     use AssetAwareTrait;
     use FrontendAwareTrait;
     use BackendAwareTrait;
+    use EditorAwareTrait;
     use CustomizerAwareTrait;
 }

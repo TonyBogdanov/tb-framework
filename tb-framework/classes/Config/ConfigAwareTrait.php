@@ -8,18 +8,19 @@
 
 namespace TB\Config;
 
-use TB\Config\Config;
-
 /**
  * Adds own instance of a configuration holder.
  *
- * Interface ConfigAwareInterface
- * @package TB\Config
+ * Trait ConfigAwareTrait
+ * @package TB\ServiceManager
  */
-interface ConfigAwareInterface
+trait ConfigAwareTrait
 {
     /**
      * @return Config
      */
-    public function getConfig();
+    public function getConfig()
+    {
+        return $this->get('tb.config.config');
+    }
 }

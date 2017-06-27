@@ -6,23 +6,18 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-namespace TB\Config;
-
-use TB\Config\Config;
+namespace TB\Asset;
 
 /**
- * Adds own instance of a configuration holder.
+ * Adds editor asset manager awareness.
  *
- * Trait ConfigAwareTrait
- * @package TB\ServiceManager
+ * Interface EditorAwareInterface
+ * @package TB\Asset
  */
-trait ConfigAwareTrait
+interface EditorAwareInterface
 {
     /**
-     * @return Config
+     * @return Editor
      */
-    public function getConfig()
-    {
-        return $this->get('tb.config.config');
-    }
+    public function getEditorAsset();
 }
