@@ -11,7 +11,7 @@
         }
     ],
     "config": {
-        "vendor-dir": "tb-framework/vendor"
+        "vendor-dir": "tb-framework/vendor/"
     },
     "autoload": {
         "psr-4": {

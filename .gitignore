@@ -1,5 +1,5 @@
 .idea/
 composer.lock
-plugin/vendor/
-plugin/languages/
+tb-framework/vendor/
+tb-framework/languages/
 bower_components/
