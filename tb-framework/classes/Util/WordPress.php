@@ -6,21 +6,10 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-namespace TB\Utils;
+namespace TB\Framework\Util;
 
-use TB\ServiceManager\ServiceManagerAwareInterface;
-use TB\ServiceManager\ServiceManagerAwareTrait;
-
-/**
- * WordPress utilities.
- *
- * Class WordPress
- * @package TB\Utils
- */
-class WordPress implements ServiceManagerAwareInterface
+class WordPress
 {
-    use ServiceManagerAwareTrait;
-
     /**
      * Disable the WP Emoji feature.
      *
@@ -30,7 +19,6 @@ class WordPress implements ServiceManagerAwareInterface
     {
         remove_action('wp_head', 'print_emoji_detection_script', 7);
         remove_action('wp_print_styles', 'print_emoji_styles');
-
         return $this;
     }
 
@@ -44,7 +32,39 @@ class WordPress implements ServiceManagerAwareInterface
         add_action('wp_footer', function () {
             wp_dequeue_script('wp-embed');
         });
+        return $this;
+    }
 
+    /**
+     * Adds HTML5 support for the current WordPress theme.
+     *
+     * @return $this
+     */
+    public function enableHtml5()
+    {
+        add_theme_support('html5');
+        return $this;
+    }
+
+    /**
+     * Adds title tag support for the current WordPress theme.
+     *
+     * @return $this
+     */
+    public function enableTitleTag()
+    {
+        add_theme_support('title-tag');
+        return $this;
+    }
+
+    /**
+     * Adds post thumbnails support for the current WordPress theme.
+     *
+     * @return $this
+     */
+    public function enablePostThumbnails()
+    {
+        add_theme_support('post-thumbnails');
         return $this;
     }
 }

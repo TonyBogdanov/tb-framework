@@ -1,3 +1,6 @@
 services:
     tb.transliterator:
         class: TB\Framework\Transliterator\Transliterator
+
+    tb.utils.wordpress:
+        class: TB\Framework\Util\WordPress
