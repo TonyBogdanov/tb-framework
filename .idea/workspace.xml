@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="229ab54e-d061-4900-8cf8-e0d676c5270d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tb-framework/classes/Bundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tb-framework/classes/Kernel.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tbpackageroot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/autoload_files.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/psr/log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/symfony/css-selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/symfony/debug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/symfony/dom-crawler" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/symfony/polyfill-mbstring" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/symfony/var-dumper" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/tonybogdanov/tb-filter" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/tonybogdanov/tb-form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/wa72/htmlpagedom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/zendframework/zend-filter" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tb-framework/vendor/zendframework/zend-stdlib" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/Asset.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/Asset.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/AssetAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/AssetAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/AssetAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/AssetAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/Backend.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/Backend.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/BackendAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/BackendAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/BackendAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/BackendAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/Editor.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/Editor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/EditorAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/EditorAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/EditorAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/EditorAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/Frontend.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/Frontend.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/FrontendAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/FrontendAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Asset/FrontendAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Asset/FrontendAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Config/Config.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Config/Config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Config/ConfigAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Config/ConfigAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Config/ConfigAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Config/ConfigAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Customizer/Customizer.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Customizer/Customizer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Customizer/CustomizerAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Customizer/CustomizerAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Customizer/CustomizerAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Customizer/CustomizerAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Customizer/Handler/AdminPage.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Customizer/Handler/AdminPage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Form/Decorator/AdminPage.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Form/Decorator/AdminPage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Form/Decorator/DecoratorAbstract.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Form/Decorator/DecoratorAbstract.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Form/Element/Color.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Form/Element/Color.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Form/Element/ElementAbstract.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Form/Element/ElementAbstract.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Form/Fieldset.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Form/Fieldset.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Form/Form.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Form/Form.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Initializable/InitializableInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Initializable/InitializableInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Navigation/Navigation.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Navigation/Navigation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Navigation/NavigationAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Navigation/NavigationAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Navigation/NavigationAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Navigation/NavigationAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/ServiceManager/OmniscientServiceManager.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/ServiceManager/OmniscientServiceManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/ServiceManager/ServiceManager.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/ServiceManager/ServiceManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/ServiceManager/ServiceManagerAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/ServiceManager/ServiceManagerAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/ServiceManager/ServiceManagerAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/ServiceManager/ServiceManagerAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/ServiceManager/ServiceManagerConfigAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/ServiceManager/ServiceManagerConfigAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/ServiceManager/ServiceManagerConfigAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/ServiceManager/ServiceManagerConfigAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Uri/Uri.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Uri/Uri.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Uri/UriAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Uri/UriAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Uri/UriAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Uri/UriAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/Development.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/Development.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/DevelopmentAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/DevelopmentAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/DevelopmentAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/DevelopmentAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/Plugin.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/Plugin.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/PluginAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/PluginAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/PluginAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/PluginAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/Theme.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/Theme.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/ThemeAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/ThemeAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/ThemeAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/ThemeAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/WordPress.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/WordPress.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/WordPressAwareInterface.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/WordPressAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tb-framework/classes/Utils/WordPressAwareTrait.php" afterPath="$PROJECT_DIR$/tb-framework/.classes/Utils/WordPressAwareTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tb-framework/bootstrap.php" afterPath="$PROJECT_DIR$/tb-framework/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tb-framework/tb-framework.php" afterPath="$PROJECT_DIR$/tb-framework/tb-framework.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" phpInterpreterId="9271f3ac-715a-4126-bcc4-045f8c38bb6c">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>C:\WEB\www\system\composer.phar</pharPath>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tb-framework/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tb-framework/classes/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#249#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>issupp</find>
+      <find>begin</find>
+      <find>begin ins</find>
+      <find>5.3</find>
+      <find>53</find>
+      <find>register_theme</find>
+      <find>registerTheme</find>
+      <find>a</find>
+      <find>theme</find>
+      <find>Theme</find>
+      <find>html5</find>
+      <find>CONFIG_HTML5_SUPPORT</find>
+      <find>uri</find>
+      <find>Uri</find>
+      <find>Backend</find>
+      <find>Navigation</find>
+      <find>if(</find>
+      <find>foreach(</find>
+      <find>tostri</find>
+      <find>__con</find>
+      <find>array(</find>
+      <find>H</find>
+      <find>Html</find>
+      <find>HtmlP</find>
+      <find>HtmlPage</find>
+      <find>HtmlPageC</find>
+      <find>render</find>
+      <find>HtmlPageCr</find>
+      <find>DOM</find>
+      <find>128</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>plugin</replace>
+      <replace>Plugin</replace>
+      <replace>Uri</replace>
+      <replace>Asset</replace>
+      <replace>Frontend</replace>
+      <replace>Customizer</replace>
+      <replace>if (</replace>
+      <replace>foreach (</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\WEB\www\github\tb-framework\plugin</dir>
+      <dir>C:\WEB\www\github\tb-framework\plugin\classes</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/plugin/classes/Utils/ThemeAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Utils/WordPressUtils.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Utils/WordPress.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Utils/WordPressUtilsAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Utils/WordPressAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Utils/WordPressUtilsAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Utils/WordPressAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Navigation/NavigationAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Navigation/NavigationAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Customizer/CustomizerAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Customizer/CustomizerAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/assets/scripts/backend-customizer-elements.js" />
+        <option value="$PROJECT_DIR$/plugin/assets/scripts/backend-customizer.js" />
+        <option value="$PROJECT_DIR$/plugin/assets/styles/backend-customizer.scss" />
+        <option value="$PROJECT_DIR$/plugin/assets/styles/backend-customizer-elements.scss" />
+        <option value="$PROJECT_DIR$/plugin/classes/ServiceManager/ServiceManagerConfigAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/ServiceManager/ServiceManagerConfigAwareTrait.php" />
+        <option value="$PROJECT_DIR$/.migrate/Customizer.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Customizer/AdminPageHandler.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Customizer/Handler/AdminPageHandler.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Customizer/Customizer.php" />
+        <option value="$PROJECT_DIR$/.migrate/Form/Element.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Element.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Decorator.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/DecoratorAbstract.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Fieldset.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/ElementAbstract.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Decorator/DecoratorAbstract.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Element/ElementAbstract.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Customizer/Handler/AdminPage.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/DOM/DOM.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Element/Color.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Form.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Form/Decorator/AdminPage.php" />
+        <option value="$PROJECT_DIR$/plugin/tb-framework.php" />
+        <option value="$PROJECT_DIR$/../../__upwork/suno/wordpress/wp-content/themes/suno/gated/index.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Config/ConfigAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Config/ConfigAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/I10n/I10nAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/I10n/I10nAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/I10n/I10n.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Asset/EditorAwareTrait.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Asset/EditorAwareInterface.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/ServiceManager/OmniscientServiceManager.php" />
+        <option value="$PROJECT_DIR$/plugin/classes/Asset/Editor.php" />
+        <option value="$PROJECT_DIR$/tb-framework/tb-framework.php" />
+        <option value="$PROJECT_DIR$/tb-framework/classes/Bundle.php" />
+        <option value="$PROJECT_DIR$/tb-framework/classes/Kernel.php" />
+        <option value="$PROJECT_DIR$/tb-framework/bootstrap.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Copyright-able Files" pattern="file[tb-framework]:plugin//*&amp;&amp;!file:plugin/tb-framework.php" />
+    <scope name="Scripts" pattern="file[tb-framework]:plugin/assets/scripts//*" />
+    <scope name="Styles" pattern="file[tb-framework]:plugin/assets/styles//*" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../__themeforest/Tundra/wordpress" />
+      <path value="$PROJECT_DIR$/plugin/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/plugin/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/plugin/vendor/wa72/htmlpagedom" />
+      <path value="$PROJECT_DIR$/plugin/vendor/composer" />
+      <path value="$PROJECT_DIR$/plugin/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/tb-framework/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/tb-framework/vendor/composer" />
+      <path value="$PROJECT_DIR$/tb-framework/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/tb-framework/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/tb-framework/vendor/psr/log" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb-framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tb-asset-management" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/plugin/.gitignore&#10;C:/WEB/www/github/tb-framework/plugin/classes/Customizer/AdminPageHandler.php&#10;C:/WEB/www/github/tb-framework/.gitignore&#10;C:/WEB/www/github/tb-framework/plugin/classes/Form/ElementAbstract.php&#10;C:/WEB/www/github/tb-framework/plugin/classes/Form/Element.php&#10;C:/WEB/www/github/tb-framework/plugin/classes/Config/Config.php&#10;C:/WEB/www/github/tb-framework/plugin/classes/ServiceManager/ServiceManager.php&#10;C:/WEB/www/github/tb-framework/plugin/classes/Form/Decorator/AdminPage.php" />
+    <property name="php.override.implement.member.chooser.php.doc" value="INHERIT" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WEB\www\github\tb-framework\tb-framework\vendor\tonybogdanov" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\Asset" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\I10n" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\Form" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\Form\Element" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\Form\Decorator" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\Form" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\Customizer" />
+      <recent name="C:\WEB\www\github\tb-framework\plugin\classes\Navigation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#PerlConfigurationType" factoryName="Perl" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="alternativeSdkPath" />
+      <option name="compileTimeBreakpointsEnabled" value="false" />
+      <option name="consoleCharset" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="nonInteractiveModeEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="perlParameters" value="" />
+      <option name="programParameters" />
+      <option name="scriptPath" />
+      <option name="useAlternativeSdk" value="false" />
+      <option name="workingDirectory" />
+      <option name="SCRIPT_PATH" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="PERL_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENVS">
+        <map />
+      </option>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="CHARSET" />
+      <option name="USE_ALTERNATIVE_SDK" value="false" />
+      <option name="ALTERNATIVE_SDK_PATH" />
+      <option name="scriptCharset" value="utf8" />
+      <option name="startMode" value="RUN" />
+      <option name="isNonInteractiveModeEnabled" value="false" />
+      <option name="isCompileTimeBreakpointsEnabled" value="false" />
+      <option name="initCode" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="229ab54e-d061-4900-8cf8-e0d676c5270d" name="Default" comment="" />
+      <created>1494756813535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494756813535</updated>
+      <workItem from="1494756814759" duration="1118000" />
+      <workItem from="1494758097451" duration="13928000" />
+      <workItem from="1494831552920" duration="761000" />
+      <workItem from="1494838094940" duration="5516000" />
+      <workItem from="1494857437115" duration="5886000" />
+      <workItem from="1494871061015" duration="11000" />
+      <workItem from="1494923992958" duration="23000" />
+      <workItem from="1494934929924" duration="624000" />
+      <workItem from="1495019441546" duration="97000" />
+      <workItem from="1495022770977" duration="4468000" />
+      <workItem from="1495049358870" duration="6333000" />
+      <workItem from="1495529133425" duration="8765000" />
+      <workItem from="1495557529591" duration="2000" />
+      <workItem from="1495616677842" duration="3380000" />
+      <workItem from="1495654683008" duration="1409000" />
+      <workItem from="1495710804504" duration="7000" />
+      <workItem from="1495710952103" duration="399000" />
+      <workItem from="1495712793011" duration="103000" />
+      <workItem from="1495713292189" duration="304000" />
+      <workItem from="1495729348289" duration="3090000" />
+      <workItem from="1495870606345" duration="2624000" />
+      <workItem from="1495911627910" duration="5161000" />
+      <workItem from="1497954087860" duration="2344000" />
+      <workItem from="1497964334732" duration="7701000" />
+      <workItem from="1498218463701" duration="2241000" />
+      <workItem from="1498568107918" duration="6495000" />
+      <workItem from="1498638071967" duration="593000" />
+      <workItem from="1499244640051" duration="10000" />
+      <workItem from="1499249290419" duration="2119000" />
+      <workItem from="1499251538393" duration="129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85641000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19733334" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35281384" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\WEB\www\__themeforest\Tundra\wordpress</wordpressPath>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plugin/assets/scripts/backend-customizer.js" />
+    <entry file="file://$PROJECT_DIR$/plugin/assets/styles/backend-customizer.css" />
+    <entry file="file://$PROJECT_DIR$/plugin/assets/styles/backend-customizer.scss" />
+    <entry file="file://$PROJECT_DIR$/plugin/assets/styles/backend-customizer-elements.scss" />
+    <entry file="file://$PROJECT_DIR$/../../__themeforest/Tundra/wordpress/wp-content/plugins/tb-framework/classes/Config/Config.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/ServiceManager/ServiceManagerConfigAwareTrait.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/ServiceManager/ServiceManagerConfigAwareInterface.php" />
+    <entry file="file://$PROJECT_DIR$/.migrate/Form/Adapter/Customize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.migrate/Customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="327" column="5" lean-forward="false" selection-start-line="327" selection-start-column="5" selection-end-line="327" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Form/Decorator/DecoratorAbstract.php" />
+    <entry file="file://$PROJECT_DIR$/../../__themeforest/Tundra/wordpress/wp-content/plugins/tb-framework/vendor/symfony/dom-crawler/Crawler.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Form/Fieldset.php" />
+    <entry file="file://$PROJECT_DIR$/.migrate/Form/Element/Checkbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/vendor/wa72/htmlpagedom/src/HtmlPageCrawler.php" />
+    <entry file="file://$PROJECT_DIR$/../../__themeforest/Tundra/wordpress/wp-content/plugins/tb-framework/vendor/wa72/htmlpagedom/src/HtmlPageCrawler.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Form/Element/ElementAbstract.php" />
+    <entry file="file://$PROJECT_DIR$/.migrate/Form/Element/Text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/vendor/symfony/dom-crawler/Crawler.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Form/Form.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Customizer/Handler/AdminPage.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Form/Decorator/AdminPage.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Form/Element/Color.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Customizer/Customizer.php" />
+    <entry file="file://$PROJECT_DIR$/../../__upwork/suno/wordpress/wp-content/themes/suno/gated/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/tb-framework.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/DOM/DOM.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Config/Config.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Config/ConfigAwareTrait.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Config/ConfigAwareInterface.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/AssetAwareInterface.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/I10n/I10nAwareInterface.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/AssetAwareTrait.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/BackendAwareTrait.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/I10n/I10nAwareTrait.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/I10n/I10n.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/EditorAwareInterface.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/EditorAwareTrait.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/ServiceManager/OmniscientServiceManager.php" />
+    <entry file="file://$PROJECT_DIR$/../../__themeforest/Tundra/wordpress/wp-includes/theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="1838" column="9" lean-forward="false" selection-start-line="1838" selection-start-column="9" selection-end-line="1838" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/Editor.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/Backend.php" />
+    <entry file="file://$PROJECT_DIR$/plugin/classes/Asset/Asset.php" />
+    <entry file="file://$PROJECT_DIR$/../../__themeforest/Tundra/wordpress/wp-content/plugins/tb-framework/vendor/tonybogdanov/tb-form/src/Element/Text.php" />
+    <entry file="file://$PROJECT_DIR$/tb-framework/vendor/tonybogdanov/tb-filter/src/ToString.php" />
+    <entry file="file://$PROJECT_DIR$/tb-framework/tb-framework.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <marker date="1499249361025" expanded="true" signature="3167:3175" ph="…" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tb-framework/ini-flags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tb-framework/classes/Bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#249#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tb-framework/classes/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#249#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tb-framework/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>TB Framework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Styles</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Copyright-able Files" />
+            <scope name="Scripts" />
+            <scope name="Styles" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

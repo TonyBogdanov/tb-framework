@@ -19,14 +19,12 @@ require_once __DIR__ . '/vendor/autoload.php';
 // enable pretty debugs
 \Symfony\Component\Debug\Debug::enable();
 
-
 // todo experiments
 
-
-$form = new \TB\Form\Form();
-$form->addDecoratorDeep(new \TB\Form\Decorator\AdminPage());
-
-$form->addElement(new \TB\Form\Element\Text('text'));
-
-dump((string) $form->render());
-exit;
+//$form = new \TB\Form\Form();
+//$form->addDecoratorDeep(new \TB\Form\Decorator\AdminPage());
+//
+//$form->addElement(new \TB\Form\Element\Text('text'));
+//
+//dump((string) $form->render());
+//exit;

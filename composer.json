@@ -18,10 +18,6 @@
             "TB\\": "tb-framework/classes"
         }
     },
-    "require": {
-        "wa72/htmlpagedom": "dev-master",
-        "TonyBogdanov/tb-form": "*"
-    },
     "require-dev": {
         "symfony/var-dumper": "3.4.x-dev",
         "symfony/debug": "3.4.x-dev"

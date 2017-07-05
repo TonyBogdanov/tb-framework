@@ -46,10 +46,10 @@ if (!function_exists('tb_activation_hook')) {
                 '<pre>AddHandler application/x-httpd-php54 .php</pre>';
         }
 
-        // memory limit of at least 128M is required
-        if (true !== ($memoryLimit = tb_ensure_memory_limit('128M'))) {
+        // memory limit of at least 256M is required
+        if (true !== ($memoryLimit = tb_ensure_memory_limit('256M'))) {
             $errors[] = '<h3>Memory limit</h3>' .
-                '<p>This plugin requires PHP to have access to at least <strong>128 megabytes</strong> of' .
+                '<p>This plugin requires PHP to have access to at least <strong>256 megabytes</strong> of' .
                 ' memory in order to function properly, but the current limit is set to <strong>' .
                 $memoryLimit . '</strong>. Please contact your server administrator / hosting provider for' .
                 ' help on how to raise the limit (the <code>ini_set</code> directive did not work).</p>';
@@ -81,7 +81,7 @@ if (!function_exists('is_plugin_active')) {
 if (is_plugin_active(plugin_basename(__FILE__))) {
     // ensure ini flags are set if needed
     require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'ini-flags.php';
-    tb_ensure_memory_limit('128M');
+    tb_ensure_memory_limit('256M');
 
     // bootstrap the framework
     require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'bootstrap.php';
