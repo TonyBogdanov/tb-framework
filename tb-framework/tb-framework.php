@@ -31,10 +31,10 @@ if (!function_exists('tb_activation_hook')) {
                 ' <strong>' . esc_html($wp_version) . '</strong>.</p>';
         }
 
-        // a minimum PHP version of 5.4 is required
-        if (version_compare('5.4', phpversion(), '>')) {
+        // a minimum PHP version of 5.5 is required
+        if (version_compare('5.5', phpversion(), '>')) {
             $errors[] = '<h3>PHP version</h3>' .
-                '<p>This plugin requires PHP version <strong>5.4</strong> or higher, but your current version is' .
+                '<p>This plugin requires PHP version <strong>5.5</strong> or higher, but your current version is' .
                 ' <strong>' . phpversion() . '</strong>, which is outdated, no longer maintained and has multiple' .
                 ' security issues which will never be fixed.</p><p>To ensure proper operation it is strongly' .
                 ' recommended to use PHP version <strong>7.0</strong> or higher on all WordPress powered' .
@@ -74,7 +74,7 @@ if (!function_exists('tb_activation_hook')) {
 register_activation_hook(__FILE__, 'tb_activation_hook');
 
 // if the plugin is active, assume all compatibility checks have passed successfully
-// from this point on PHP 5.4+ support is assumed
+// from this point on PHP 5.5+ support is assumed
 if (!function_exists('is_plugin_active')) {
     require_once ABSPATH . 'wp-admin/includes/plugin.php';
 }

@@ -15,11 +15,17 @@
     },
     "autoload": {
         "psr-4": {
-            "TB\\": "tb-framework/classes"
+            "TB\\Framework\\": "tb-framework/classes"
         }
     },
     "require-dev": {
         "symfony/var-dumper": "3.4.x-dev",
         "symfony/debug": "3.4.x-dev"
+    },
+    "require": {
+        "symfony/dependency-injection": "3.4.x-dev",
+        "behat/transliterator": "^1.2@dev",
+        "symfony/config": "3.4.x-dev",
+        "symfony/yaml": "3.4.x-dev"
     }
 }

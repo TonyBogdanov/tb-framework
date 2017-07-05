@@ -375,7 +375,7 @@ if (!class_exists('TB')) {
          * and supported by the previously registered theme or plugin, to which this file belongs.
          *
          * Using this methods ensures you can use and rely on all server environment features listed as dependencies
-         * for running the framework, e.g. PHP 5.4.
+         * for running the framework, e.g. PHP 5.5.
          *
          * If not specified, the gated path will be automatically determined as the path of the source file relative to
          * the theme or plugin root, prepended by a "gated" folder. Example: /path/to/theme/my/file.php will become:

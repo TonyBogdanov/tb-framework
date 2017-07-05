@@ -6,18 +6,9 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-namespace TB\Asset;
+namespace TB\Framework\ServiceManager;
 
-/**
- * Adds editor asset manager awareness.
- *
- * Interface EditorAwareInterface
- * @package TB\Asset
- */
-interface EditorAwareInterface
-{
-    /**
-     * @return Editor
-     */
-    public function getEditorAsset();
-}
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+
+class ServiceManager extends ContainerBuilder
+{}

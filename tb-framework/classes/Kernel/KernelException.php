@@ -6,12 +6,7 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-namespace TB;
+namespace TB\Framework\Kernel;
 
-class Kernel
-{
-    public static function loadBundle(Bundle $bundle)
-    {
-
-    }
-}
+class KernelException extends \Exception
+{}

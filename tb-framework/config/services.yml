@@ -1,0 +1,3 @@
+services:
+    tb.transliterator:
+        class: TB\Framework\Transliterator\Transliterator

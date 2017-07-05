@@ -6,18 +6,7 @@
  *  @copyright  Copyright (c) 2017. www.tonybogdanov.com. All Rights Reserved.
  */
 
-namespace TB\Asset;
+namespace TB\Framework\Transliterator;
 
-/**
- * Adds asset manager awareness.
- *
- * Interface AssetAwareInterface
- * @package TB\Asset
- */
-interface AssetAwareInterface
-{
-    /**
-     * @return Asset
-     */
-    public function getAsset();
-}
+class Transliterator extends \Behat\Transliterator\Transliterator
+{}
