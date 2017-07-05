@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="229ab54e-d061-4900-8cf8-e0d676c5270d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tb-framework/classes/Util/WordPress.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/Development.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/DevelopmentAwareInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/DevelopmentAwareTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/Plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/PluginAwareInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/PluginAwareTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/Theme.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/ThemeAwareInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/ThemeAwareTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/WordPress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/WordPressAwareInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.migrate/new/Utils/WordPressAwareTrait.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tb-framework/config/services.yml" afterPath="$PROJECT_DIR$/tb-framework/config/services.yml" />
-    </list>
+    <list default="true" id="229ab54e-d061-4900-8cf8-e0d676c5270d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -635,12 +619,12 @@
       <workItem from="1499244640051" duration="10000" />
       <workItem from="1499249290419" duration="2119000" />
       <workItem from="1499251538393" duration="10374000" />
-      <workItem from="1499274834761" duration="8773000" />
+      <workItem from="1499274834761" duration="9398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104659000" />
+    <option name="totallyTimeSpent" value="105284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
