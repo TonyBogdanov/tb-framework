@@ -4,3 +4,6 @@ services:
 
     tb.utils.wordpress:
         class: TB\Framework\Util\WordPress
+
+    tb.utils.twitter_bootstrap:
+        class: TB\Framework\Util\TwitterBootstrap

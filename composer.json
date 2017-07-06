@@ -26,6 +26,9 @@
         "symfony/dependency-injection": "3.4.x-dev",
         "behat/transliterator": "^1.2@dev",
         "symfony/config": "3.4.x-dev",
-        "symfony/yaml": "3.4.x-dev"
+        "symfony/yaml": "3.4.x-dev",
+        "wa72/htmlpagedom": "dev-master",
+        "guzzlehttp/guzzle": "^6.2@dev",
+        "symfony/cache": "3.4.x-dev"
     }
 }

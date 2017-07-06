@@ -103,4 +103,12 @@ class Kernel
         // bootstrap bundle
         $bundle->bootstrap();
     }
+
+    /**
+     * @return ContainerInterface
+     */
+    public static function getContainer()
+    {
+        return self::$container;
+    }
 }
