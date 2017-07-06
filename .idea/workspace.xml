@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="229ab54e-d061-4900-8cf8-e0d676c5270d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tb-framework/classes/Util/TwitterBootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tb-framework.iml" afterPath="$PROJECT_DIR$/.idea/tb-framework.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tb-framework/classes/Kernel/Kernel.php" afterPath="$PROJECT_DIR$/tb-framework/classes/Kernel/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tb-framework/config/services.yml" afterPath="$PROJECT_DIR$/tb-framework/config/services.yml" />
-    </list>
+    <list default="true" id="229ab54e-d061-4900-8cf8-e0d676c5270d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -505,12 +498,12 @@
       <workItem from="1499249290419" duration="2119000" />
       <workItem from="1499251538393" duration="10374000" />
       <workItem from="1499274834761" duration="9398000" />
-      <workItem from="1499334084688" duration="5012000" />
+      <workItem from="1499334084688" duration="5611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110296000" />
+    <option name="totallyTimeSpent" value="110895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
