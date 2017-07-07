@@ -127,6 +127,16 @@ class TwitterBootstrap
             }
 
             $page = $this->fetchDOM($this->getBaseUrl() . $anchor->attr('href'));
+
+            $contentHeading = $page->filter('h2#contents');
+            if (0 < count($contentHeading)) {
+                $contentMenu = $contentHeading->nextAll()->filter('ul');
+                if (0 < count($contentMenu)) {
+                    $contentMenu->remove();
+                }
+                $contentHeading->remove();
+            }
+            
             $result .= $page->filter('.bd-content')->first()->html();
         });
 
